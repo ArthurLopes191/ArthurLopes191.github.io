@@ -49,14 +49,15 @@ nav.mobile{
     background-image: url('../imagens/icon_menu.png');
     background-size: 100% 100%;
     display: none;
+    
 }
 
 nav.mobile ul{
-    display: none;
+    display:none;
     width: 100%;
     left: 0;
-    top: 95px;
-    border-bottom: 4px solid #EB2D2D;
+    top: 120px;
+    border-bottom: 4px solid rgb(50, 101, 155);;
     z-index: 999;
     position: absolute;
     text-align: center;
@@ -72,6 +73,19 @@ nav.mobile li{
 nav.mobile li a{
     color: black;
     text-decoration: none;
+}
+
+nav.mobile li a:hover{
+    text-decoration: underline;
+}
+
+.hide{
+   opacity: 0; 
+}
+
+.show{
+    transition: 1s;
+    opacity: 1;
 }
 
 header nav.desktop ul{
