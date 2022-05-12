@@ -19,6 +19,7 @@ Este repositório utilizo para publicar meus projetos web.
 # Projetos:
 
 [Loja Celular](https://arthurlopes191.github.io/pagina-venda-celular/index.html)
-
+[Curriculo](https://arthurlopes191.github.io/curriculo/)
+[Tabela Champions](https://arthurlopes191.github.io/tabela-champions/)
 
 
