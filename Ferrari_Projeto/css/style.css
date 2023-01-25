@@ -33,15 +33,7 @@ header{
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center;
-}
-
-.logo-2{
-	float: right;
-	width: 160px;
-	height: 60px;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center;
+	cursor: pointer;
 }
 
 
@@ -136,7 +128,7 @@ section.chamada p{
 .item-2-mosaico h1{
 	font-family: "Playfair Display";
 	color: #f0ebe1;
-	
+	margin-bottom: 10px;
 }
 
 .item-2-mosaico p{
@@ -175,6 +167,7 @@ footer .container{
 
 footer img{
 	width: 120px;
+	cursor: pointer;
 }
 
 footer p{
@@ -209,8 +202,10 @@ footer p{
 		display: inline-block;
 		padding: 50px 20px 0 20px;
 		width: 100%;
-		
+		text-align: center;
 	}
+
+	
 		
 	
 
