@@ -181,6 +181,10 @@ footer p{
 		max-width: 1280px;
 		margin:  0 auto;
 	}
+
+	.bg{
+	height: 300px;
+	}
 	
 	.flex-mosaico{
 		display: inline-block;
