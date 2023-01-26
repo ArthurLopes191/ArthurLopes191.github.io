@@ -11,7 +11,7 @@ function carrossel3(){
          idx3 = 0;
     }
     
-    imgs3.style.transform = `translateX(${-idx2 * 800}px)`;
+    imgs3.style.transform = `translateX(${-idx2 * 950}px)`;
 
     if (window.matchMedia("(max-width:950px)").matches) {
         imgs3.style.transform = `translateX(${-idx3 * (innerWidth+8)}px)`;

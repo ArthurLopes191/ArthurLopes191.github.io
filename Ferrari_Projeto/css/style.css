@@ -44,7 +44,7 @@ header{
 }
 
 .title-promo{
-	padding: 20% 0;
+	padding: 20% 0 20% 5%;
 	width: 50%;
 	text-align: center;
 }
@@ -53,10 +53,10 @@ header{
 	width: 98%;
 	max-width: 700px;
 	display:  inline-block;
-	color:  #452625;
+	color:  white;
 	font-size:  60px;
-	text-transform: uppercase;
-	font-family: "Playfair Display";
+	text-transform: ;
+	font-weight: 800;
 }
 
 section.chamada{
@@ -83,7 +83,7 @@ section.chamada h2{
 
 .flex-mosaico{
 	display: flex;
-	height: 600px;
+	height: 700px;
 }
 
 .carrosel{
@@ -109,7 +109,7 @@ section.chamada h2{
 .item-2-mosaico h1{
 	font-family: "Playfair Display";
 	color: #f0ebe1;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .item-2-mosaico p{
@@ -123,7 +123,7 @@ section.chamada h2{
 	display: inline-block;	
 	border: 2px solid #c93742;
 	font-size: 20px;
-	margin: 30px 0;
+	margin: 12px 0;
 	padding: 10px 10px ;
 	font-family: Roboto, sans-serif !important;
 	cursor: pointer;
@@ -192,18 +192,32 @@ footer p{
 	}
 }
 
+@media screen and (max-width: 830px){
+	.title-promo{
+		height: 70%;
+		padding: 15% 0 0 5%;
+		width: 50%;
+	}
+
+	.title-promo h2{	
+		font-size:  45px;
+	}
+}
+
 @media screen and (max-width: 690px){
 	.bg{
 		height: 300px;
 	}
 
 	.title-promo{
-		height: 70%;
 		padding: 25% 0 0 5%;
-		width: 50%;
 	}
 
 	.title-promo h2{	
-		font-size:  30px;
+		font-size:  25px;
+	}
+
+	.button{
+		margin: 20px 0;
 	}
 }
