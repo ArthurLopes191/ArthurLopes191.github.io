@@ -44,7 +44,7 @@ header{
 }
 
 .title-promo{
-	padding: 20% 0 20% 5%;
+	padding: 15% 0 20% 5%;
 	width: 50%;
 	text-align: center;
 }
@@ -53,7 +53,7 @@ header{
 	width: 98%;
 	max-width: 700px;
 	display:  inline-block;
-	color:  white;
+	color:  #452625;
 	font-size:  60px;
 	text-transform: ;
 	font-weight: 800;
@@ -210,14 +210,14 @@ footer p{
 	}
 
 	.title-promo{
-		padding: 25% 0 0 5%;
+		padding: 10% 0 0 5%;
 	}
 
 	.title-promo h2{	
-		font-size:  25px;
+		font-size:  30px;
 	}
 
 	.button{
-		margin: 20px 0;
+		margin: 30px 0;
 	}
 }
